@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <!--Toppen av siden /top-bar -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" >
+    <title>Om</title>
+  </head>
+
+  <!--navigeringsmeny på toppen av siden: -->
+  <body>
+    <header>
+      <h1>Robert Nilsen</h1>
+      <nav>
+        <ul class="navigasjon">
+          <li class="navigasjonsboks"><a href="hjemmeside.html">Hjemmeside</a></li>  <!--Her linker jeg til de andre sidene, samt lager navn til knappen-->
+          <li class="navigasjonsboks"><a href="Portefølje.html">Portefølje</a></li>
+          <li class="navigasjonsboks"><a href="resume.html">Resume</a></li>
+          <li class="navigasjonsboks"><a href="kontakt.html">Kontakt meg</a></li>
+          <li class="navigasjonsboks"><a href="om.html">Om</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Om:</h1>
+
+      <div class="rapport">
+        <p>
+          Vi har alle tre hatt ulike måter å forberede oss til å lage nettsiden,
+          sammen med forelesningene har vi også brukt eksterne hjelpemidler fra
+          nett. Det finnes mange måter å hente informasjon om HTML på, og vi har
+          benyttet oss spesielt av LINK skillshare og LINK code-academy.
+          Eksempelvis viser flere til forskjellen mellom å bruke &lt;h1&gt; og
+          &lt;p&gt; til å vise tekst.
+        </p>
+
+        <p>
+          Teknisk sett kunne man ha brukt &lt;h1&gt; til all tekst, men man
+          bruker &lt;h1&gt; - &lt;h6&gt; for å vise i koden hva slags type tekst
+          det er. &lt;h1&gt; viser til at det er en tekst av type «header» og vi
+          valgte derfor å bruke dette til overskriftene våre. Vi brukte
+          &lt;h1&gt; til hovedoverskriftene våre, og &lt;h2&gt; til
+          underoverskriftene våre. Dette er det beste valget for dette innholdet
+          fordi man bruker også disse til å signalisere hvilke overskrifter som
+          er hovedoverskrifter, og hvilke som er til for å bryte opp innholdet
+          med underoverskrifter. På denne måten kan man også se direkte i koden
+          hva slags type innhold teksten er.
+        </p>
+
+        <p>
+          Resten av teksten har vi lagt i &lt;p&gt;-tager. Vi kunne ha brukt
+          &lt;span&gt;-tager for å separere små deler av teksten. Dette er en
+          tag som i hovedsak blir brukt til å kunne stilisere mindre deler av
+          teksten inne i en paragraph i CSS. I og med at vi ikke hadde behov for
+          å stilisere mindre deler ble det best for oss å kun bruke &lt;p&gt;.
+        </p>
+
+        <p>
+          For å legge inn bilder har vi brukt &lt;img&gt;-tags. Det vi også har
+          gjort med image-tagene er å legge inn et alternativ til bildet, for to
+          forskjellige grunner. Alternativet til bildet dukker opp som en
+          beskrivende tekst av billedinnholdet. Hvis bildet av en eller annen
+          grunn ikke blir hentet opp i nettleseren, har vi fått lagt inn dette
+          slik at man får vite hva som egentlig skulle vært der. Det er også en
+          nyttig funksjon for blinde, slik at deres verktøy kan lese alt-en høyt
+          og den blinde vil få et mer fullverdig inntrykk av nettsiden, og en
+          bedre brukeropplevelse.
+        </p>
+
+        <p>
+          Når man lager lister kan man velge mellom å organisere innholdet i en
+          nummerert rekkefølge, eller å lage en unummerert liste som kun
+          inneholder punkter foran innholdet. Hvis man ønsker å lage en
+          nummerert liste bruker man tagen &lt;ol&gt;. I disse tilfellene var
+          det mest hensiktsmessig å ikke nummerere innholdet så det er brukt en
+          &lt;ul&gt;-tag. Denne tagen sorterer innholdet i nettleseren med
+          punkter og ikke tall, og ble derfor best å bruke for oss i dette
+          tilfellet.
+        </p>
+
+        <p>
+          Vi har også brukt &lt;div&gt; til å identifisere og kategorisere
+          innhold. Dette er praktisk både i forhold til bedre forståelse når man
+          leser koden, men også for å stilisere spesifikt innhold i
+          CSS-stylesheeten. På denne måten kan vi tilegne ulik verdi på
+          forskjellig innhold.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <!--Toppen av siden /top-bar -->
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" >
+    <title>Kontakt meg</title>
+  </head>
+
+  <!--navigeringsmeny på toppen av siden: -->
+  <body>
+    <header>
+      <h1>Robert Nilsen</h1>
+      <nav>
+        <ul class="navigasjon">
+          <li class="navigasjonsboks"><a href="hjemmeside.html">Hjemmeside</a></li>
+          <!--Her linker jeg til de andre sidene, samt lager navn til knappen-->
+          <li class="navigasjonsboks"><a href="Portefølje.html">Portefølje</a></li>
+          <li class="navigasjonsboks"><a href="resume.html">Resume</a></li>
+          <li class="navigasjonsboks"><a href="kontakt.html">Kontakt meg</a></li>
+          <li class="navigasjonsboks"><a href="om.html">Om</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Hoveddelen av siden: tekst:  -->
+    <main>
+      <h2>Kontakt meg:</h2>
+      <hr />
+      <!--Her lager jeg en linje som jeg setter under overskrivten for å dele opp litt-->
+
+      <div class="hvordan_kontakte">
+        <p>
+          Dersom du synes prosjektene mine så spennende ut og du kunne tenkt deg
+          å vite mer om meg, kan du kontakte meg på:
+        </p>
+        <p class="telefon"><b>Telefon:</b> 11223344</p>
+        <p class="epost"><b>Epost:</b> Robert.nilsen@mail.com</p>
+      </div>
+
+      <div class="alternativ_kontakt">
+        <p>Du kan også sende meg en melding ved å fylle ut boksene under:</p>
+      </div>
+
+      <!-- Her lager jeg input-boksene slik at man kan sende melding direkte til personen-->
+      <form>
+        <div class="input">
+          <label for="navn">Navn:</label>
+          <input id="navn" type="text" placeholder="Skriv inn navnet ditt.." class="navn">
+        </div>
+
+        <div class="input">
+          <label for="e-post">E-post:</label>
+          <input id="e-post" type="text" placeholder="Skriv inn e-posten din.." class="e-post">
+        </div>
+
+        <div class="input">
+          <label for="melding">Melding: </label>
+          <textarea id="melding" class="melding"> </textarea>
+        </div>
+
+        <!--Her lager jeg knappene til å sende inn og resette-->
+        <div>
+          <button>Send</button>
+          <button>Tilbakestill</button>
+        </div>
+
+      </form>
+    </main>
+  </body>
+</html>
